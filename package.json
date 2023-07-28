@@ -1,14 +1,13 @@
 {
   "name": "electron-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "electron用のテンプレート",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron .",
-    "build": "electron-builder --win --x64"
+    "build": "electron-builder"
   },
-  "keywords": [],
+  "keywords": ["electron","template"],
   "author": "",
   "license": "ISC",
   "dependencies": {
