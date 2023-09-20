@@ -7,10 +7,14 @@
     "start": "electron .",
     "build": "electron-builder"
   },
-  "keywords": ["electron","template"],
+  "keywords": [
+    "electron",
+    "template"
+  ],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "electron": "^22.3.16"
+  "devDependencies": {
+    "electron": "latest",
+    "electron-builder": "latest"
   }
 }
